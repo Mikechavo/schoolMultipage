@@ -36,6 +36,9 @@ const Capital = () => {
 
 return (
   <div>
+     <header>
+        <h1>Austin</h1>
+      </header>
     <section>
       <h2>Information about Austin</h2>
       <img src="austin.jpg" alt="Austin Skyline" />
@@ -51,13 +54,21 @@ return (
     </section>
 
     <aside>
-      <h3>City Statistics</h3>
-      <ul>
-        <li><strong>Population:</strong> Approx. 1 million</li>
-        <li><strong>Area:</strong> 326.5 square miles</li>
-      </ul>
-      <p>Links to local resources: <a href="https://www.austintexas.gov" target="_blank" rel="noopener noreferrer">AustinTexas.gov</a></p>
-    </aside>
+        <h3>City Statistics</h3>
+        <table className="city-stats">
+          <tbody>
+            <tr>
+              <td><strong>Population:</strong></td>
+              <td>Approx. 1 million</td>
+            </tr>
+            <tr>
+              <td><strong>Area:</strong></td>
+              <td>326.5 square miles</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Links to local resources: <a href="https://www.austintexas.gov" target="_blank" rel="noopener noreferrer">AustinTexas.gov</a></p>
+      </aside>
   </div>
 );
 };

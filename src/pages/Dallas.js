@@ -7,6 +7,9 @@ const Dallas = () => {
  return (
  
    <div>
+    <header>
+        <h1>Dallas</h1>
+      </header>
      {/* Section Content */}
      <section>
        <h2>Information about Dallas</h2>

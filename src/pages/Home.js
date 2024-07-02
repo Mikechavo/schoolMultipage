@@ -17,8 +17,9 @@ const Home = () => {
     {/* Aside Content */}
     <aside>
       <h2>Additional Information</h2>
-      <ul>
-        <li><strong>Capital:</strong> Austin</li>
+      <ul className="custom-list">
+      {/* add nav lav here */}
+        <li><strong>Capital:</strong> Austin</li> add nav lav here
         <li><strong>State bird:</strong> Mockingbird</li>
         <li><strong>State Flower:</strong> Bluebonnet</li>
       </ul>

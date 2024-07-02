@@ -7,9 +7,12 @@ const Houston = () => {
  return (
  
    <div>
+    <header>
+        <h1>Houston</h1>
+      </header>
      {/* Section Content */}
      <section>
-       <h2>Information about Austin</h2>
+       <h2>Information about Houston</h2>
        <p>?</p>
        <h3>History</h3>
        <p>Founded in ?</p>
