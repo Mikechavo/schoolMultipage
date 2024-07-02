@@ -41,3 +41,63 @@ nav .App-link:hover {
   color: #007bff;
   text-decoration: none;
 }
+
+
+/* /////////////////////////// */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #61dafb;
+}
+
+section, aside {
+  padding: 20px;
+}
+
+.custom-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0; /* Remove padding for list */
+}
+
+.custom-list li {
+  margin-left: 1em; /* Adjust margin between bullet and text */
+}
+
+h1, h2, h3 {
+  font-family: 'Arial, sans-serif';
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0056b3;
+}
