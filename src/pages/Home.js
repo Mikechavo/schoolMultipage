@@ -3,10 +3,16 @@ import { NavLink } from 'react-router-dom';
 import { Card } from 'reactstrap';
 import '../App.css';
 import Flag from '../images/Flag.webp';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
     <div className="App">
+      {/* head and title using Helmet component tags for SEO optimization*/}
+      <Helmet>
+        <title>Texas - The Lone Star State</title>
+        <meta name="description" content="Texas, the Lone Star State, is known for its history, diverse culture, and expansive landscapes." />
+      </Helmet>
       {/* Page Header */}
       <header>
         <h1>Welcome to Texas</h1>
@@ -17,7 +23,7 @@ const Home = () => {
       <nav className="top-nav">
         <NavLink className="App-link" to="/capital">Capital</NavLink> |
         <NavLink className="App-link" to="/dallas"> Dallas</NavLink> |
-        <NavLink className="App-link" to="/houston"> Houston</NavLink>        
+        <NavLink className="App-link" to="/houston"> Houston</NavLink>
       </nav>
 
       {/* Main Content */}
@@ -52,7 +58,7 @@ const Home = () => {
             <li><strong>State bird:</strong> Mockingbird</li>
             <li><strong>State Flower:</strong> Bluebonnet</li>
           </ul>
-          <p>Links to state resources: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Resource Links</a> | <a href="https://example.com" target="_blank" rel="noopener noreferrer">Texas DSHS</a></p>
+          <p>Links to state resources: <a href="https://www.tsl.texas.gov/exhibits/texas175/declaration" target="_blank" rel="noopener noreferrer">Resource Link for Historical Events</a> | <a href="https://www.texas.gov/" target="_blank" rel="noopener noreferrer">Texas.gov</a></p>
         </aside>
       </main>
     </div>

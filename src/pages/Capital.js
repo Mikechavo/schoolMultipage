@@ -5,18 +5,24 @@ import Incorp from '../images/incorp.jpg';
 import Class from '../images/class.jpeg';
 import Income from '../images/income.jpg';
 import Flag from '../images/Flag.webp';
-
+import Austin from '../images/austin.jpg';
+import { Helmet } from 'react-helmet';
 
 
 const Capital = () => {
   return (
     <div>
+      {/* head and title using Helmet component tags for SEO optimization*/}
+      <Helmet>
+        <title>Austin - Capital City of Texas</title>
+        <meta name="description" content="Austin is the capital city of Texas, known for its tech industry, vibrant cultural life, and live music scene." />
+      </Helmet>
       <header>
         <h1>Welcome to Austin</h1>
       </header>
       <section>
         <h2>Information about Austin</h2>
-        <img src="austin.jpg" alt="Austin Skyline" />
+        <img className="images" src={Austin} alt="Austin City Image" />
         <p>Austin is the capital city of Texas, known for its tech industry, vibrant cultural life, and live music scene.</p>
         <h3>History</h3>
         <p>Founded in 1839.</p>
