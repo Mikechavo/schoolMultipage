@@ -22,7 +22,7 @@ const Capital = () => {
       </header>
       <section>
         <h2>Information about Austin</h2>
-        <img className="images" src={Austin} alt="Austin City Image" />
+        <img className="images" src={Austin} alt="Austin City" />
         <p>Austin is the capital city of Texas, known for its tech industry, vibrant cultural life, and live music scene.</p>
         <h3>History</h3>
         <p>Founded in 1839.</p>

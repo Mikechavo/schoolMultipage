@@ -24,7 +24,7 @@ const Dallas = () => {
       </header>
       <section>
         <h2>Information about Dallas</h2>
-        <img className="images" src={dallas} alt="Dallas City Image" />
+        <img className="images" src={dallas} alt="Dallas City Buildings" />
         <p>Dallas is known for its major corporate headquarters, vibrant arts scene, and as the historical site of President John F. Kennedy's assassination.</p>
         <h3>History</h3>
         <p>Founded in 1856</p>

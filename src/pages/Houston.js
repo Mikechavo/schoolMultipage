@@ -24,7 +24,7 @@ const Houston = () => {
       </header>
       <section>
         <h2>Information about Houston</h2>
-        <img className="images" src={houston} alt="Houston City Image" />
+        <img className="images" src={houston} alt="The City of Houston" />
         <p>Houston is known for being home to the NASA Johnson Space Center, a major hub of the energy industry, and its vibrant cultural scene.</p>
         <h3>History</h3>
         <p>Founded in 1837.</p>
