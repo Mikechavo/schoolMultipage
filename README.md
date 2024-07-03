@@ -1,3 +1,18 @@
+# School Project
+Created a multipage website of Texas including the capital, Dallas, and Houston
+Each city page includes: 
+- City’s population
+- The region of the state in which the city is located
+- The classification of the city
+- The average income level of the city compared to the rest of the state
+The Project Required components are:
+- HTML pages
+- External CSS document(s)
+- All images uploaded to the website
+
+# I wanted to take things up a notch and create a React app while including the required components
+In this project you will find a React app made with JavaScript, CSS and Bootstrap
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
