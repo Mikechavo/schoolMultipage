@@ -11,7 +11,7 @@ The Project Required components are:
 - All images uploaded to the website
 
 # I wanted to take things up a notch and create a React app while including the required components
-In this project you will find a React app made with JavaScript, CSS and Bootstrap
+In this project you will find a React app made with JavaScript, HTML, CSS, and Bootstrap
 
 # Getting Started with Create React App
 
