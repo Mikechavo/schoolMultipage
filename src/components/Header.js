@@ -3,12 +3,12 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../App.css'; 
 
-function Header() {
+const Header = () => {
   return (
     <Navbar expand="lg" className="navbar-background">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <h1>Welcome to Texas</h1>
+          <h1 style={{ color: 'red' }}>Welcome to Texas</h1>
         </Navbar.Brand>
         <Nav>
           <Nav.Link as={Link} to="/" className="App-link">

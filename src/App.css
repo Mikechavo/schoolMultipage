@@ -4,7 +4,29 @@
   text-align: center;
 }
 
-.App-link,
+/* HTML element to the side of another */
+/* Relative positioning  */
+.main-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content section {
+  width: 70%; /* Adjust width as needed */
+}
+
+
+/* Font family declaration */
+section {
+  font-family: Arial, sans-serif; /* Element selector */
+}
+
+
+
+
+
+
 .nav-link {
   color: #61dafb;
 }
@@ -14,7 +36,7 @@
   transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
-.nav-link:hover,
+/* a :hover pseudo-class to create a rollover effect for navigation buttons */
 .App-link:hover {
   color: #007bff; /* Change color on hover */
   text-decoration: none; /* Remove underline on hover */
@@ -30,8 +52,6 @@ nav .App-link:hover {
   text-decoration: none;
 }
 
-
-/* /////////////////////////// */
 
 body {
   font-family: Arial, sans-serif;
@@ -67,15 +87,15 @@ nav ul li a:hover {
 section, aside {
   padding: 20px;
 }
-
+/* Class Selector */
 .custom-list {
-  list-style-type: none; /* Remove default bullets */
   padding-left: 0; /* Remove padding for list */
+  list-style-position: inside; /* Ensure bullets/numbers are inside the list item box */
+  text-align: left; /* Align text to the left within the list */
+  display: inline-block; /* Align the list itself to the center */
 }
 
-.custom-list li {
-  margin-left: 1em; /* Adjust margin between bullet and text */
-}
+
 
 h1, h2, h3 {
   font-family: 'Arial, sans-serif';
@@ -117,7 +137,7 @@ a:hover {
   color: white;
 }
 
-
+/* Form styling */
 form {
   max-width: 600px;
   margin: 0 auto;
@@ -159,7 +179,15 @@ button:hover {
   background: #0056b3;
 }
 
-.error {
-  color: red;
-  margin-bottom: 1em;
+
+.images {
+  width: 500px;
+  max-width: 100%; 
+  margin-bottom: 20px;
+}
+
+.table-images {
+  width: 100px;
+  max-width: 100%; 
+  margin-bottom: 20px;
 }

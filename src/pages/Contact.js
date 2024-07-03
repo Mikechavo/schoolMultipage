@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import '../App.css';
+import './Contact.css';
 
 const Contact = () => {
   const [email, setEmail] = useState('');
   const [confirmEmail, setConfirmEmail] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
+  // JavaScript code that verifies the email fields match
   const handleSubmit = (e) => {
     e.preventDefault();
     if (email !== confirmEmail) {
@@ -22,6 +23,7 @@ const Contact = () => {
       <header>
         <h1>Contact Info</h1>
       </header>
+      {/* ID selector */}
       <form id="contactForm" onSubmit={handleSubmit}>
         <h3>Contact Us</h3>
         <label htmlFor="firstName">First Name:</label>

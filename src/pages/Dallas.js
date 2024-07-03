@@ -1,40 +1,71 @@
 import React from 'react'
 import '../App.css'
+import Pop from '../images/population.jpg';
+import Incorp from '../images/incorp.jpg';
+import Class from '../images/class.jpeg';
+import Income from '../images/income.jpg';
+import Flag from '../images/Flag.webp';
+
+
 const Dallas = () => {
 
 
 
- return (
- 
-   <div>
-    <header>
-        <h1>Dallas</h1>
+  return (
+    <div>
+      <header>
+        <h1>Welcome to Dallas</h1>
       </header>
-     {/* Section Content */}
-     <section>
-       <h2>Information about Dallas</h2>
-       <p>?</p>
-       <h3>History</h3>
-       <p>Founded in ?</p>
-       <h3>Landmarks</h3>
-       <ul className="custom-list">
-         <li>?</li>
-         <li>?</li>
-         <li>?</li>
-       </ul>
-     </section>
+      <section>
+        <h2>Information about Dallas</h2>
+        <img src="austin.jpg" alt="Austin Skyline" />
+        <p>?.</p>
+        <h3>History</h3>
+        <p>?.</p>
+        <h3>Landmarks</h3>
+        <ul className="custom-list">
+          <li>?</li>
+          <li>?</li>
+          <li>?</li>
+        </ul>
+      </section>
 
-     {/* Aside Content */}
-     <aside>
-       <h2>City Statistics</h2>
-       <ul className="custom-list">
-         <li><strong>Population:</strong> ?</li>
-         <li><strong>Area:</strong> ?</li>
-       </ul>
-       <p>Links to local resources: <a href="#">?</a> | <a href="#">?</a></p>
-     </aside>
-   </div>
- );
+      <aside>
+        <h3>City Statistics</h3>
+        <table className="city-stats">
+          <tbody>
+            <tr>
+              <td><strong>Population:</strong></td>
+              <td>?</td>
+              <td><img className="table-images" src={Pop} alt="Population Image" /></td>
+            </tr>
+            <tr>
+              <td><strong>Year of Incorporation:</strong></td>
+              <td>?</td>
+              <td><img className="table-images" src={Incorp} alt="Incorporation Image" /></td>
+            </tr>
+            <tr>
+              <td><strong>Region:</strong></td>
+              <td>?</td>
+              <td><img className="table-images" src={Flag} alt="Flag Image" /></td>
+            </tr>
+            <tr>
+              <td><strong>Classification:</strong></td>
+              <td>?</td>
+              <td><img className="table-images" src={Class} alt="Classification Image" /></td>
+            </tr>
+            <tr>
+              <td><strong>Average Income Level:</strong></td>
+              <td>?</td>
+              <td><img className="table-images" src={Income} alt="Income Image" /></td>
+            </tr>
+            {/* Add more rows as needed */}
+          </tbody>
+        </table>
+        <p>Links to local resources: <a href="?" target="_blank" rel="noopener noreferrer">?</a></p>
+      </aside>
+    </div>
+  );
 };
 
 export default Dallas;
