@@ -41,27 +41,27 @@ const Capital = () => {
             <tr>
               <td><strong>Population:</strong></td>
               <td>Approx. 1 million</td>
-              <td><img className="table-images" src={Pop} alt="Population Image" /></td>
+              <td><img className="table-images" src={Pop} alt="Population" /></td>
             </tr>
             <tr>
               <td><strong>Year of Incorporation:</strong></td>
               <td>1839</td>
-              <td><img className="table-images" src={Incorp} alt="Incorporation Image" /></td>
+              <td><img className="table-images" src={Incorp} alt="Incorporation" /></td>
             </tr>
             <tr>
               <td><strong>Region:</strong></td>
               <td>Central Texas</td>
-              <td><img className="table-images" src={Flag} alt="Flag Image" /></td>
+              <td><img className="table-images" src={Flag} alt="Flag" /></td>
             </tr>
             <tr>
               <td><strong>Classification:</strong></td>
               <td>Urban</td>
-              <td><img className="table-images" src={Class} alt="Classification Image" /></td>
+              <td><img className="table-images" src={Class} alt="Classification" /></td>
             </tr>
             <tr>
               <td><strong>Average Income Level:</strong></td>
               <td>Higher than state average</td>
-              <td><img className="table-images" src={Income} alt="Income Image" /></td>
+              <td><img className="table-images" src={Income} alt="Income" /></td>
             </tr>
             {/* Add more rows as needed */}
           </tbody>
