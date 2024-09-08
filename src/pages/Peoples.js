@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React from 'react'
 import '../App.css'
 import Pop from '../images/population.jpg';
@@ -7,6 +9,7 @@ import Dataim from '../images/dataimage.png';
 
 
 import { Helmet } from 'react-helmet';
+
 
 const Peoples = () => {
 
