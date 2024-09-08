@@ -10,8 +10,8 @@ const Home = () => {
     <div className="App">
       {/* head and title using Helmet component tags for SEO optimization*/}
       <Helmet>
-        <title>Texas - The Lone Star State</title>
-        <meta name="description" content="Texas, the Lone Star State, is known for its history, diverse culture, and expansive landscapes." />
+        <title>Welcome to Taniti Island</title>
+        <meta name="description" content="Information about Taniti island." />
       </Helmet>
       {/* Page Header */}
       <header>
@@ -20,7 +20,7 @@ const Home = () => {
 
 
       {/* Main Content */}
-      <main className="main-content">
+      <main className="">
         {/* Image with alternative text and CSS styling with className*/}
         <img className="images" src={Taniti} alt="Island" />
 
