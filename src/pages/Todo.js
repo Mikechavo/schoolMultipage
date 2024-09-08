@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 
-import Income from '../images/income.jpg';
 import Zip from '../images/zip.webp';
 import { Helmet } from 'react-helmet';
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'; 
 import '../App.css'
-import Pop from '../images/population.jpg';
 import Lodge from '../images/lodge.jpg';
 
 

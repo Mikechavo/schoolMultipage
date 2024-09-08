@@ -1,8 +1,5 @@
 import React from 'react'
 import '../App.css'
-import Pop from '../images/population.jpg';
-import Incorp from '../images/incorp.jpg';
-import Class from '../images/class.jpeg';
 import Q from '../images/Q.jpg';
 
 import { Helmet } from 'react-helmet';
